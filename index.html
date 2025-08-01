@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Minds - College Project Development</title>
+    <meta name="description" content="Professional project development services for college students - IoT, AI/ML, Web Development and more">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header - Fixed positioning for smooth scrolling -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!-- Logo section -->
+            <div class="nav__logo">
+                <h2>Future Mind</h2>
+            </div>
+            
+            <!-- Navigation menu for desktop -->
+            <ul class="nav__list" id="nav-list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#features" class="nav__link">Features</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#testimonials" class="nav__link">Testimonials</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile hamburger menu button -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main content wrapper -->
+    <main class="main">
+        <!-- Hero Section - Eye-catching landing area with CTA -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__title-line">Future Minds</span>
+                        <span class="hero__title-line typed-text" id="typed-text">Projects</span>
+                    </h1>
+                    <p class="hero__description">
+                        Get professional, high-quality projects for your academic needs. 
+                        From IoT and AI/ML to Web Development - we deliver excellence.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#services" class="btn btn--primary">Explore Projects</a>
+                        <a href="#contact" class="btn btn--secondary">Get Quote</a>
+                    </div>
+                </div>
+                <!-- Decorative background elements -->
+                <div class="hero__decoration">
+                    <div class="hero__circle hero__circle--1"></div>
+                    <div class="hero__circle hero__circle--2"></div>
+                    <div class="hero__circle hero__circle--3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section - Company introduction and value propositions -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Future Minds</h2>
+                    <p class="section__subtitle">Your trusted partner for academic project success</p>
+                </div>
+                
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description">
+                            We specialize in developing high-quality, innovative projects for college students 
+                            across various technical domains. With years of experience and a team of expert 
+                            developers, we ensure your academic projects meet the highest standards.
+                        </p>
+                        <div class="about__features">
+                            <div class="about__feature">
+                                <h3>500+</h3>
+                                <span>Projects Delivered</span>
+                            </div>
+                            <div class="about__feature">
+                                <h3>98%</h3>
+                                <span>Success Rate</span>
+                            </div>
+                            <div class="about__feature">
+                                <h3>24/7</h3>
+                                <span>Support Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section - Project categories and offerings -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Project Categories</h2>
+                    <p class="section__subtitle">Choose from our wide range of technical domains</p>
+                </div>
+                
+                <!-- Dynamic project grid populated via JavaScript -->
+                <div class="services__grid" id="services-grid">
+                    <!-- Project cards will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section - Why choose us -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Why Choose Us</h2>
+                    <p class="section__subtitle">We deliver excellence in every aspect</p>
+                </div>
+                
+                <!-- Dynamic features grid populated via JavaScript -->
+                <div class="features__grid" id="features-grid">
+                    <!-- Feature cards will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section - Student reviews and feedback -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">What Students Say</h2>
+                    <p class="section__subtitle">Real feedback from our satisfied clients</p>
+                </div>
+                
+                <!-- Dynamic testimonials grid populated via JavaScript -->
+                <div class="testimonials__grid" id="testimonials-grid">
+                    <!-- Testimonial cards will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Contact form and information -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Get In Touch</h2>
+                    <p class="section__subtitle">Ready to start your project? Contact us today!</p>
+                </div>
+                
+                <div class="contact__content">
+                    <!-- Contact form with Web3Forms integration -->
+                    <div class="contact__form-container">
+                        <form class="contact__form" id="contact-form">
+                            <!-- WEB3FORMS CONFIGURATION - REPLACE YOUR_ACCESS_KEY_HERE WITH YOUR ACTUAL KEY -->
+                            <input type="hidden" name="access_key" value="a7d81fc4-e936-408a-97b8-1d9eff1cbc49">
+                            <input type="hidden" name="subject" value="🎯 New Project Inquiry from Future Minds Projects">
+                            <input type="hidden" name="from_name" value="Future Minds Projects Contact Form">
+                            <!-- <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table"> -->
+                            <!-- <input type="hidden" name="_autoresponse" value="Thank you for contacting Future Minds Projects! We have received your inquiry and will get back to you within 24 hours."> -->
+                            
+                            <!-- SPAM PROTECTION -->
+                            <input type="checkbox" name="_botcheck" style="display: none;">
+                            
+                            <!-- FORM FIELDS -->
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" required>
+                                <span class="form-error" id="phone-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="project-type" class="form-label">Project Type</label>
+                                <select id="project-type" name="project-type" class="form-control" required>
+                                    <option value="">Select Project Type</option>
+                                    <option value="IoT Automation">IoT Automation</option>
+                                    <option value="AI & Machine Learning">AI & Machine Learning</option>
+                                    <option value="RFID Systems">RFID Systems</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <!-- <option value="Mobile Apps">Mobile Apps</option> -->
+                                    <option value="Embedded Systems">Embedded Systems</option>
+                                </select>
+                                <span class="form-error" id="project-type-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Project Details</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" 
+                                    placeholder="Describe your project requirements..." required></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact information -->
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <div class="contact__info-icon">✉️</div>
+                            <div class="contact__info-content">
+                                <h4>Email</h4>
+                                <p>futuremindprojects@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Links and social media -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">Future Minds</h3>
+                    <p class="footer__description">
+                        Professional project development services for college students.
+                        Quality, innovation, and excellence in every project.
+                    </p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="#services">IoT Projects</a></li>
+                        <li><a href="#services">AI/ML Projects</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <!-- <li><a href="#services">Mobile Apps</a></li> -->
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Follow Us</h4>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" target="_blank">📘 Facebook</a>
+                        <a href="#" class="footer__social-link" target="_blank">🐦 Twitter</a>
+                        <a href="#" class="footer__social-link" target="_blank">💼 LinkedIn</a>
+                        <a href="#" class="footer__social-link" target="_blank">📷 Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Future Minds. All rights reserved. | Designed with ❤️ for Students</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success/Error Messages Modal -->
+    <div class="modal hidden" id="message-modal">
+        <div class="modal__backdrop" id="modal-backdrop"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3 class="modal__title" id="modal-title">Message</h3>
+                <button class="modal__close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal__body">
+                <p id="modal-message"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
