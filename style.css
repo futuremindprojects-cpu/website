@@ -841,6 +841,7 @@ body {
 .nav__logo h2 {
   color: var(--color-primary);
   margin: 0;
+  margin-left: 10px;
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
 }
