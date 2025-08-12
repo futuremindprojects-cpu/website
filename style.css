@@ -1399,7 +1399,7 @@ body {
 }
 
 .footer__title {
-  color: var(--color-white);
+  color: var(--color-primary);
   margin-bottom: var(--space-16);
 }
 
